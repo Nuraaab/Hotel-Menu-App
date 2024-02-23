@@ -4,10 +4,11 @@ import './App.css';
 function App() {
   return (
     <div className="App">
+      <p>I don't know what I am doing with this</p>
       <header className="App-header">
         <img src={logo} className="App-logo" alt="logo" />
         <p>
-          Edit <code>src/App.js</code> and save to reload.
+          This looks like a movie intro
         </p>
         <a
           className="App-link"
@@ -21,5 +22,6 @@ function App() {
     </div>
   );
 }
+
 
 export default App;
