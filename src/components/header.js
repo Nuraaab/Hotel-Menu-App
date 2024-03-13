@@ -1,15 +1,35 @@
-function header() {
-    return (
-        <div class="flex-col text-center items-center bg-green-900 ">
-            <div class="py-4 font-bold text-white text-9xl" >Food Menu</div>
-            <div class="flex bg-slate-600">
-                <div class="basis-1/4 bg-red-500 m-5 rounded-full  text-center">01</div>
-                <div class="basis-1/2  bg-yellow-200 m-7 rounded-full text-center">02</div>
-                <div class="basis-1  bg-green-600 m-7 rounded-full text-center">03</div>
-            </div>
-        </div>
-    );
+import Card from "./Card";
+import Carousel from "./Carousel";
+import jsonData from "./data.json";
+
+function App() {
+  
+  const { slides } = jsonData;
+  const card = slides.map((slide, index) => ({
+    key: index.toString(), // Use index as key, converted to string'
+    content: (
+      <Card
+        props = {slide}
+      />
+    )
+  }));
+  return (
+    <>
+      <h1>FOOD MENU</h1>
+   
+      <div className="">
+        <Carousel
+          cards={card}
+          height="0"
+          width="80%"
+          margin="100px"
+          offset={90}
+          showArrows={true}
+        />
+    
+      </div>
+    </>
+  );
 }
 
-
-export default header;
+export default App;

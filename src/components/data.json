@@ -1,0 +1,28 @@
+{
+  "slides": [
+    {
+      "src": "https://images.unsplash.com/photo-1634650947274-0c3fa9d8ee8a?q=80&w=2070&auto=format&fit=crop&ixlib=rb-4.0.3&ixid=M3wxMjA3fDB8MHxwaG90by1wYWdlfHx8fGVufDB8fHx8fA%3D%3D",
+      "alt": "AMAZON የአይብ ክትፎ"
+    },
+    {
+      "src": "https://images.unsplash.com/photo-1568901346375-23c9450c58cd?q=80&w=1899&auto=format&fit=crop&ixlib=rb-4.0.3&ixid=M3wxMjA3fDB8MHxwaG90by1wYWdlfHx8fGVufDB8fHx8fA%3D%3D",
+      "alt": "Amazon double cheese burger "
+    },
+    {
+      "src": "https://images.unsplash.com/photo-1513104890138-7c749659a591?q=80&w=2070&auto=format&fit=crop&ixlib=rb-4.0.3&ixid=M3wxMjA3fDB8MHxwaG90by1wYWdlfHx8fGVufDB8fHx8fA%3D%3D",
+      "alt": "Amazon Special Pizza"
+    },
+    {
+      "src": "https://images.unsplash.com/photo-1553787499-6f9133860278?q=80&w=1887&auto=format&fit=crop&ixlib=rb-4.0.3&ixid=M3wxMjA3fDB8MHxwaG90by1wYWdlfHx8fGVufDB8fHx8fA%3D%3D",
+      "alt": "Amazon MilkShake"
+    },
+    {
+      "src": "https://images.unsplash.com/photo-1628543108325-1c27cd7246b3?q=80&w=1887&auto=format&fit=crop&ixlib=rb-4.0.3&ixid=M3wxMjA3fDB8MHxwaG90by1wYWdlfHx8fGVufDB8fHx8fA%3D%3D",
+      "alt": "Amazon ቁርጥ "
+    }
+  ],
+  "color": {
+    "primary": "red",
+    "secondary": "black"
+  }
+}
